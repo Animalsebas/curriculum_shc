@@ -101,9 +101,13 @@ function App() {
         />
       </div>
         <br></br>
+        <br></br>
+        <br></br>
         <p><strong>Desarrollo Web&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baskerville Inc.</strong></p>
         <p>Mi StartUp en desarrollo, visita la <a href={"https://baskerville-inc.000webhostapp.com/#/"} target="_blank">página</a></p>
         <img className='imagen1' alt="Baskerville Inc." src="desarrolloweb.jpg"/>
+        <br></br>
+        <br></br>
         <br></br>
         <p><strong>Programación general&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image_colors_identifier</strong></p>
         <p>Python program to identify all the colors in an image. Results in HEX, RGB and CSS closest match<a href={"https://github.com/Animalsebas/Image_colors_identifier"} target="_blank"> Soruce Code</a></p>
