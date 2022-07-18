@@ -115,7 +115,7 @@ function App() {
         <br></br>
       </div>
       <div class="header-card">
-        <h1>¿Te gusta mi currículum? Accede al <a className='urlBlanco' href={"https://github.com/Animalsebas/Image_colors_identifier"} target="_blank">código fuente</a></h1>
+        <h1>¿Te gusta mi currículum? Accede al <a className='urlBlanco' href={"https://github.com/Animalsebas/curriculum_shc"} target="_blank">código fuente</a></h1>
         </div>
       </body>
       </div>
