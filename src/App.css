@@ -2,37 +2,99 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+  padding-bottom: 0%;
+}
+.App-body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 0vh;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.miFoto{
+  border-radius: 50%;
+  width: 25vh;
+  padding-top: 0px;
+  border: 5px solid #83072D;
+  -webkit-animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both
+}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+.miNombre{
+  font-family:  Baskerville, "Baskerville Old Face";
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0%;
+  -webkit-animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both
+}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.miTitulo{
+margin-top: 0mm;
+border-top: 0mm;
+padding-top: 0cm;
+-webkit-animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both;animation:shake-horizontal .8s cubic-bezier(.455,.03,.515,.955) both
+}
+@-webkit-keyframes shake-horizontal{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%{-webkit-transform:translateX(10px);transform:translateX(10px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:translateX(-8px);transform:translateX(-8px)}}@keyframes shake-horizontal{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%{-webkit-transform:translateX(10px);transform:translateX(10px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:translateX(-8px);transform:translateX(-8px)}}
+
+.contacto{
+  background-color: beige;
+  font-size: calc(6px + 2vmin);
+  width: 100%;
+  
+}
+
+.tituloTarjeta{
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 0%;
+}
+
+.video{
+  margin: auto;
+  width: fit-content;
+  height: 30rem;
+  border: 3px solid #83072D;
+  padding: 10px;
+  color: black;
+}
+.longText{
+  text-align: center;
+  
+  padding-right: 10vh;
+  padding-left: 10vh;
+}
+
+.imagen1{
+  width: 50%;
+}
+
+.header-card {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0%;
+  padding-bottom: calc(20px + 3vmin);
+  height: calc(10px + 1.5vmin);
+  margin: auto;
+  font-size: calc(1px + 1.5vmin);
+  background: #83072D;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.urlBlanco{
+  color: #ffffff;
 }

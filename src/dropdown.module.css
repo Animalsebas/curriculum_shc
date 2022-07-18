@@ -1,0 +1,87 @@
+.dropdown_wrapper{
+    background-color: #83072D;
+    border-radius: 10%;
+    position: fixed;
+    top: 1vh;
+    right: 3vh;
+    -webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both
+  }
+  @-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
+  
+.dropdown_activator {
+    align-items: center;
+    background-color: inherit;
+    border: none;
+    height: 100%;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    display: flex;
+    align-items: center;
+    font-size: inherit;
+    padding: 1rem 0.6rem;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10%;
+  }
+  
+.dropdown_activator:hover {
+    border-bottom: 1px solid #833d52;
+    border-image: linear-gradient(
+        to right,
+        transparent 20%,
+        #ffffff,
+        transparent 80%
+      )
+      30;
+  }
+  
+.dropdown_item_list {
+    background: #833d52;
+    display: none;
+    margin: 0;
+    z-index: 1000;
+    position: absolute;
+    box-shadow: 0 0 2px 0 #833d52;
+    border-radius: 10px;
+    padding: 0;
+    max-width: 99.99999999999999%;
+  }
+  
+.dropdown_item_list.active {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+.item_list {
+    list-style: none;
+  }
+  
+.item_list:last-child a {
+    border-bottom: none;
+  }
+  
+.item_list a,
+.item_list a:link {
+    display: flex;
+    /* gap: 0.8rem; */
+    color: #ffffff;
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    padding: 0.8rem;
+    padding-left: 0.2rem;
+    transition: all 0.1s linear;
+    width: 100%;
+    white-space: pre-wrap;
+    
+  }
+  
+.item_list a:hover {
+    background-color: #83072D;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 8rem;
+  }
+  
