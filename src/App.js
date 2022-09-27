@@ -32,6 +32,7 @@ function App() {
       <header className="App-header">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <Helmet><script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script></Helmet>
+      <br></br>
       <a id="Inicio"><img className="miFoto" alt="Mi Fotografía" src="foto.jpeg"/></a>
       <h1 className="miNombre">Sebastián Hernández Castro</h1>
       <h4 className='miTitulo'>Ingeniero Físico | Desarrollador de Software y Web</h4>
@@ -40,8 +41,8 @@ function App() {
       <body className="App-body">
       <div className="block">
         <p><i class="fa fa-envelope"></i>   <a href={"mailto:sebastianhc2020@gmail.com"} className="email-url">sebastianhc2020@gmail.com</a> | <a href={"mailto:a01236287@tec.mx"} className="email-url">a01236287@tec.mx</a><br></br><br></br><i class="fa fa-phone"></i>    871-359-27-95</p>
-        
         <p><i class='fas fa-map-marker-alt'></i>   Monterrey, Nuevo León. México</p>
+        <p><a className="email-url" href="https://www.linkedin.com/in/sebasti%C3%A1n-hern%C3%A1ndez-castro-559581215">LinkedIn</a></p>
       </div>
       <Dropdown dropdownTitle="Apartados" items={items} />
       <br></br>
@@ -63,7 +64,7 @@ function App() {
         <p>Android Studio, Java, Kotlin</p>
 
         <p><strong>Programación general&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alto</strong></p>
-        <p>Python, C, C++, Golang, Rust</p>
+        <p>Visual Studio Code, C, C++, Golang, Rust</p>
 
         <p><strong>Administración de sistemas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alto</strong></p>
         <p>Linux, SQL, Windows</p>
