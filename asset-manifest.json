@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/curriculum_shc/static/css/main.5041a5fd.css",
-    "main.js": "/curriculum_shc/static/js/main.76097ff7.js",
+    "main.js": "/curriculum_shc/static/js/main.97b050c9.js",
     "static/js/787.bdaf9bc2.chunk.js": "/curriculum_shc/static/js/787.bdaf9bc2.chunk.js",
     "index.html": "/curriculum_shc/index.html",
     "main.5041a5fd.css.map": "/curriculum_shc/static/css/main.5041a5fd.css.map",
-    "main.76097ff7.js.map": "/curriculum_shc/static/js/main.76097ff7.js.map",
+    "main.97b050c9.js.map": "/curriculum_shc/static/js/main.97b050c9.js.map",
     "787.bdaf9bc2.chunk.js.map": "/curriculum_shc/static/js/787.bdaf9bc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5041a5fd.css",
-    "static/js/main.76097ff7.js"
+    "static/js/main.97b050c9.js"
   ]
 }
