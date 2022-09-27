@@ -82,7 +82,6 @@ function App() {
         <ReactPlayer
           url='https://youtube.com/shorts/lMK5mZZa8CM?feature=share'
           className='react-player'
-          playing
           controls="true"
           width='100%'
           height='100%'
