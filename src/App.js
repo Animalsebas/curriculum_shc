@@ -42,7 +42,7 @@ function App() {
       <div className="block">
         <p><i class="fa fa-envelope"></i>   <a href={"mailto:sebastianhc2020@gmail.com"} className="email-url">sebastianhc2020@gmail.com</a> | <a href={"mailto:a01236287@tec.mx"} className="email-url">a01236287@tec.mx</a><br></br><br></br><i class="fa fa-phone"></i>    871-359-27-95</p>
         <p><i class='fas fa-map-marker-alt'></i>   Monterrey, Nuevo León. México</p>
-        <p><a className="email-url" href="https://www.linkedin.com/in/sebasti%C3%A1n-hern%C3%A1ndez-castro-559581215">LinkedIn</a></p>
+        <p><a className="email-url" href="https://www.linkedin.com/in/sebasti%C3%A1n-hern%C3%A1ndez-castro-559581215" target="_blank">LinkedIn</a></p>
       </div>
       <Dropdown dropdownTitle="Apartados" items={items} />
       <br></br>
