@@ -50,9 +50,9 @@ padding-top: 0cm;
 }
 @-webkit-keyframes shake-horizontal{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%{-webkit-transform:translateX(10px);transform:translateX(10px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:translateX(-8px);transform:translateX(-8px)}}@keyframes shake-horizontal{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}10%,30%,50%,70%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}20%,40%,60%{-webkit-transform:translateX(10px);transform:translateX(10px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:translateX(-8px);transform:translateX(-8px)}}
 
-.contacto{
+.block{
   background-color: beige;
-  font-size: calc(6px + 2vmin);
+  font-size: calc(10px + 2vmin);
   width: 100%;
   
 }
@@ -97,4 +97,8 @@ padding-top: 0cm;
 
 .urlBlanco{
   color: #ffffff;
+}
+
+.email-url {
+  color: black;
 }
